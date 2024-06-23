@@ -106,6 +106,7 @@ span{
     font-size: 0.85rem ;
     font-weight: 700;
 }
+/* panel */
 .panel{
     background-color: #232f3e;
     color:white;
@@ -125,10 +126,11 @@ a{
     font-size: 0.9rem;
     font-weight: 600;
 }
+/* hero-section (background image) */
 .hero-section{
     background-image: url("hero_image.jpg");
     background-size: cover;
-    height: 600px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -146,5 +148,31 @@ a{
 }
 .hero-msg a{
     color: #007185
-
+}
+/* content of shopping  */
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+}
+.box-image{
+    height:300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color:#007185;
 }
